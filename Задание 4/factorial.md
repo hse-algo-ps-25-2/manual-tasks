@@ -132,11 +132,21 @@ x_2 = 4A + 16B
 \end{equation}
 $$
 
-где $x_1 = \begin{vmatrix}6\end{vmatrix} = 6$ \
-и $x_2 = \begin{vmatrix}
+где
+
+$$
+x_1 = \begin{vmatrix}6\end{vmatrix} = 6
+$$
+
+и
+
+$$
+x_2 = \begin{vmatrix}
 6 & 2\\
 4 & 6
-\end{vmatrix} = 36 - 8 = 28$.\
+\end{vmatrix} = 36 - 8 = 28.
+$$
+
 Таким образом, система примет вид:
 
 $$
@@ -148,17 +158,93 @@ $$
 \end{equation}
 $$
 
-Решая систему, находим $A=-1$ и $B=2$.
+3. Решим систему. Разделим оба уравнения на $2$, получим:
 
-3. Таким образом, формула общего решения:
+$$
+\begin{equation}
+\begin{cases}
+3 = A + 2B \\
+14 = 2A + 8B
+\end{cases}
+\end{equation}
+$$
+
+Выразим $A$ из первого уравнения и подставим во второе:
+
+$$
+\begin{equation}
+\begin{cases}
+A = 3 - 2B \\
+14 = 2 \cdot (3 - 2B) + 8B
+\end{cases}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\begin{cases}
+A = 3 - 2B \\
+14 = 6 - 4B + 8B
+\end{cases}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\begin{cases}
+A = 3 - 2B \\
+4B = 8
+\end{cases}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\begin{cases}
+A = 3 - 2 \cdot 2 \\
+B = 2
+\end{cases}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\begin{cases}
+A = -1 \\
+B = 2
+\end{cases}
+\end{equation}
+$$
+
+4. Таким образом, формула общего решения:
 
 $$
 x_n = -2^n + 2 \cdot 4^n.
 $$
 
+5. Проверим формулу для определителя порядка 3.
+
+а) По правилу треугольника:
+
+$$
+\begin{vmatrix}
+6 & 2 & 0 \\
+4 & 6 & 2 \\
+0 & 4 & 6
+\end{vmatrix} = 6^3 - 2 \cdot 4 \cdot 6 - 2 \cdot 4 \cdot 6 = 216 - 48 - 48 = 120
+$$
+
+б) По формуле:
+
+$$
+x_3 = -2^3 + 2 \cdot 4^3 = -8 + 2 \cdot 64 = -8 + 128 = 120
+$$
+
+Ответы совпали, следовательно, формула выведена корректно.
+
 ## 5. Расчет значения определителя порядка 8.
 
-Подставим в формулу общего решения $n = 8$, получим:
+1. Подставим в формулу общего решения $n = 8$, получим:
 
 $$
 x_8 = -2^8 + 2 \cdot 4^8 = -256 + 2 \cdot 65536 = 131072 - 256 = 130816.
