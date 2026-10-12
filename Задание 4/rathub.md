@@ -71,6 +71,7 @@ $$
 $$
 X_1=\begin{vmatrix}5\end{vmatrix}=5
 $$
+
 $$
 X_2=\begin{vmatrix}5&6\\1&5\end{vmatrix}
 =5 * 5 - 6 * 1=25-6=19
