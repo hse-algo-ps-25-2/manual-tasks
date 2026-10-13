@@ -20,9 +20,9 @@ $$\lambda_1 = -8; \; \lambda_2 = 2$$
 
 $$x_n = A_1 \lambda_1^n + A_2 \lambda_2^n; \; x_n = (-8)^n A_1 + 2^n A_2$$
 
-$$\begin{cases} -6 = A_1 \cdot (-8) + A_2 \cdot 2 \\    52 = A_1 \cdot (-8)^2 + A_2 \cdot 2^2 \end{cases}$$
+$$\begin{cases} -6 = A_1 \cdot (-8) + A_2 \cdot 2 \\    ; 52 = A_1 \cdot (-8)^2 + A_2 \cdot 2^2 \end{cases}$$
 
-$$\begin{cases} -8A_1 + 2A_2 = -6 \quad | \cdot 2 \\    64A_1 + 4A_2 = 52 \end{cases}$$
+$$\begin{cases} -8A_1 + 2A_2 = -6 \quad | \cdot 2 \\    ; 64A_1 + 4A_2 = 52 \end{cases}$$
 
 $$\begin{cases} -16A_1 + 4A_2 = -12 \\ 64A_1 + 4A_2 = 52 \end{cases}$$
 
