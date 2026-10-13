@@ -24,7 +24,7 @@ $$\begin{cases} -6 = A_1 \cdot (-8) + A_2 \cdot 2 \\    ; 52 = A_1 \cdot (-8)^2 
 
 $$\begin{cases} -8A_1 + 2A_2 = -6 \quad | \cdot 2 \\    ; 64A_1 + 4A_2 = 52 \end{cases}$$
 
-$$\begin{cases} -16A_1 + 4A_2 = -12 \\ 64A_1 + 4A_2 = 52 \end{cases}$$
+$$\begin{cases} -16A_1 + 4A_2 = -12 \\ ;64A_1 + 4A_2 = 52 \end{cases}$$
 
 $$80A_1 = 64$$
 
