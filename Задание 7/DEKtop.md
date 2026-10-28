@@ -69,12 +69,13 @@ $\lambda^2 - \lambda -2 = 0$
 
 Решаем уравнение $:$  
 Применяем теорему Виета $:$  
-$$
+
+$$  
 \begin{cases}  
 \lambda_1 + \lambda_2 = 1  \\
 \lambda_1 * \lambda_2 = -2  \
 \end{cases}
-$$
+$$  
 
 $\lambda_1 = 2$  
 $\lambda_2 = -1$
