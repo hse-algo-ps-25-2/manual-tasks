@@ -5,28 +5,28 @@ gantt
     axisFormat %s
 
     section Исполнитель 1
-    E        :e1, 0, 1
-    F        :f1, 1, 3
-    D        :d1, 4, 4
-    H        :h1, 8, 7
-    A        :a1, 15, 12
-    G        :g1, 27, 17
-    B        :b1, 44, 12
-    C        :c1, 56, 9
-    I        :i1, 65, 6
-    Простой  :crit, p1, 71, 5
+    E        :e1, 0, 1s
+    F        :f1, after e1, 3s
+    D        :d1, after f1, 4s
+    H        :h1, after d1, 7s
+    A        :a1, after h1, 12s
+    G        :g1, after a1, 17s
+    B        :b1, after g1, 12s
+    C        :c1, after b1, 9s
+    I        :i1, after c1, 6s
+    Простой  :crit, p1, after i1, 5s
 
     section Исполнитель 2
-    Простой  :crit, p2_1, 0, 1
-    E        :e2, 1, 5
-    F        :f2, 6, 4
-    D        :d2, 10, 6
-    H        :h2, 16, 10
-    Простой  :crit, p2_2, 26, 1
-    A        :a2, 27, 14
-    Простой  :crit, p2_3, 41, 3
-    G        :g2, 44, 18
-    B        :b2, 62, 8
-    C        :c2, 70, 4
-    I        :i2, 74, 2
+    Простой  :crit, p2_1, 0, 1s
+    E        :e2, after p2_1, 5s
+    F        :f2, after e2, 4s
+    D        :d2, after f2, 6s
+    H        :h2, after d2, 10s
+    Простой  :crit, p2_2, after h2, 1s
+    A        :a2, after p2_2, 14s
+    Простой  :crit, p2_3, after a2, 3s
+    G        :g2, after p2_3, 18s
+    B        :b2, after g2, 8s
+    C        :c2, after b2, 4s
+    I        :i2, after c2, 2s
 ```
