@@ -30,3 +30,29 @@ gantt
     C        :c2, after b2, 4s
     I        :i2, after c2, 2s
 ```
+
+
+```mermaid
+gantt
+    title Оптимальное расписание (Задача 2 — Алгоритм Мак-Нотона)
+    dateFormat X
+    axisFormat %s
+    tickInterval 1second
+
+    section Исполнитель 1
+    A        :a, 0, 14s
+
+    section Исполнитель 2
+    B        :b, 0, 6s
+    C        :c, after b, 5s
+    D (1 ч.) :d1, after c, 3s
+
+    section Исполнитель 3
+    D (2 ч.) :d2, 0, 1s
+    E        :e, after d2, 3s
+    F        :f, after e, 2s
+    Простой  :crit, p3, after f, 8s
+
+    section Исполнитель 4
+    Простой  :crit, p4, 0, 14s
+```
